@@ -1,0 +1,67 @@
+.wrapper {
+  background-color: #EBEBEB;
+  padding: 30px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(125, 125, 125);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.card {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+}
+.card-social-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.profile-pic {
+  border-radius: 50%;
+  height: 100px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  /*font-weight: lighter;*/
+}
+
+h3 {
+  color: #DD5555;
+}
+
+button {
+  background-color: #DD5555;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #DD5555;
+  border-color: #DD5555;
+}
+
+.btn-primary:hover {
+  background-color: #C61414;
+  border-color: #DD5555;
+}
+.place {
+  display: flex;
+  margin: 10px 0;
+}
+.city-pic {
+  width: 100%;
+}
+.city-pic-container {
+  max-width: 150px;
+  min-width: 150px;
+  margin-right: 20px;
+}
